@@ -1,1 +1,34 @@
-# PonySwitch
+# PonySwitch Node
+
+The PonySwitch node is a custom node for ComfyUI that modifies prompts based on toggle switches and configurable pony tags.
+
+## Features
+
+- **Toggle Switch**: Enables or disables the addition of pony tags to prompts.
+- **Positive Pony Tags**: Configurable tags added to the beginning of the positive prompt.
+- **Negative Pony Tags**: Configurable tags added to the beginning of the negative prompt.
+- **Positive and Negative Prompts**: Input prompts that are modified based on the toggle state.
+
+## Installation
+
+1. Place the `PonySwitch.py` file in your `custom_nodes` directory of ComfyUI.
+2. Restart ComfyUI to load the new node.
+
+## Usage
+
+1. **Toggle Switch**: Turn on to prepend pony tags to prompts, or off to use the prompts as-is.
+2. **Positive Pony Tags**: Enter tags for the positive prompt, separated by commas.
+3. **Negative Pony Tags**: Enter tags for the negative prompt, separated by commas.
+4. **Positive and Negative Prompts**: Connect your string prompts to these inputs.
+
+## Example
+
+When the toggle is on, the node adds the specified pony tags to the beginning of the prompts with two new lines separating them. When off, it outputs the prompts unchanged.
+
+```python
+# Example usage
+"Toggle Switch": True,
+"Positive Pony Tags": "score_9, score_8_up, score_7_up, score_6_up",
+"Negative Pony Tags": "score_1, score_2, score_3, score_4, score_5, score_6",
+"Positive Prompt": "Your positive text here",
+"Negative Prompt": "Your negative text here"
