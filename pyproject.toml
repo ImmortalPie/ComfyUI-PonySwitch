@@ -1,3 +1,4 @@
+
 [project]
 name = "comfyui-ponyswitch"
 description = "The PonySwitch node is a custom node for ComfyUI that modifies prompts based on a toggle switch and adds configurable pony tags."
@@ -9,6 +10,22 @@ Repository = "https://github.com/ImmortalPie/ComfyUI-PonySwitch"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "immortalpie"
 DisplayName = "ComfyUI-PonySwitch"
 Icon = ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
