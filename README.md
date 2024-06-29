@@ -2,14 +2,13 @@
 
 The PonySwitch node is a custom node for ComfyUI that modifies prompts based on a toggle switch and adds configurable pony tags.
 
-
 I found it cumbersome switching the pony tags in the prompt between Pony based models and Sdxl based models. 
 
-I had a group of nodes that did the same thing but wanted it to be tidier so I have created this.
+I had a group of nodes that did the same thing but wanted it to be neater so I have created this.
+
 Uses a Boolean switch that adds or removes the tags at the front of the prompt.
 
 You can change which tags you wish to use right on the widget.
-
 
 ## Features
 
@@ -33,11 +32,3 @@ You can change which tags you wish to use right on the widget.
 ## Example
 
 When the toggle is on, the node adds the specified pony tags to the beginning of the prompts with two new lines separating them. When off, it outputs the prompts unchanged.
-
-```python
-# Example usage
-"Toggle Switch": True,
-"Positive Pony Tags": "score_9, score_8_up, score_7_up, score_6_up",
-"Negative Pony Tags": "score_1, score_2, score_3, score_4, score_5, score_6",
-"Positive Prompt": "Your positive text here",
-"Negative Prompt": "Your negative text here"
