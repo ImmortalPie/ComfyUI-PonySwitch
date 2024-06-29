@@ -6,7 +6,7 @@
 
 The PonySwitch node is a custom node for ComfyUI that modifies prompts based on a toggle switch and adds configurable pony tags.
 
-I found it cumbersome switching the pony tags in the prompt between Pony based models and Sdxl based models. 
+I found it cumbersome switching the pony tags in the prompt between Pony based models and SDXL based models. 
 
 I had a group of nodes that did the same thing but wanted it to be neater so I have created this.
 
