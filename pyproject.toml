@@ -1,4 +1,3 @@
-
 [project]
 name = "comfyui-ponyswitch"
 description = "The PonySwitch node is a custom node for ComfyUI that modifies prompts based on a toggle switch and adds configurable pony tags."
