@@ -34,7 +34,9 @@ You can change which tags you wish to use right on the widget.
 1. Git clone https://github.com/ImmortalPie/ComfyUI-PonySwitch into your `custom_nodes` directory of ComfyUI.
 2. Restart ComfyUI to load the new node.
 
-or just copy the ComfyUI-PonySwitch.py into the custom nodes folder.
+or
+
+ Copy the ComfyUI-PonySwitch.py into the custom nodes folder.
 
 ## Usage
 
