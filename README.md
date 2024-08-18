@@ -1,5 +1,3 @@
-![PonySwitch]()
-
 # PonySwitch Node
 
 <p align="center">
