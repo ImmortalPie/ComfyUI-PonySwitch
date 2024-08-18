@@ -36,11 +36,6 @@ You can change which tags you wish to use right on the widget.
 1. Place the `PonySwitch.py` file in your `custom_nodes` directory of ComfyUI.
 2. Restart ComfyUI to load the new node.
 
-Or 
-
-1. install using ComfyUI Manager.
-2. Restart ComfyUI to load the new node.
-
 ## Usage
 
 1. **Toggle Switch**: Turn on to prepend pony tags to prompts, or off to use the prompts as-is.
